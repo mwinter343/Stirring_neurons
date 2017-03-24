@@ -1,0 +1,122 @@
+<?php
+
+/* @var $this yii\web\View */
+$this->title = 'Stirring Neurons';
+use yii\helpers\Html;
+?>
+<div class="site-index">
+
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-md">
+
+                <div class = "story">
+                    <h4>
+                        <p>RECOLLECTION FOUR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CONCUSSION OF THOUGHT</p>
+
+                    </h4>
+                    <p>&nbsp;</p>
+                    <p>Let&rsquo;s skip forty-eight years to a little thought experiment I had driving to work.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quantum theory is hard to understand, but my God.&nbsp;The theory of relativity is worse. It has caused me many sleepless nights walking the streets of Honolulu.</p>
+                    <p>The Theory of Relativity says if you are going the speed of light, there is no time, no space, no mass. If you want to shake up neurons in your head, phantom that. How in the shit can you be going anywhere in no space and no time? And guess what? Light particles, the things we use to see things, go that speed.</p>
+                    <p>Then try imagine light going that speed in no space, and in no time. I mean what did it go through to get to me, if not space and time? Is there a top secret route through the universe we don&rsquo;t know about?</p>
+                    <p>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I can see that little smug light particle now. It is called a photon. Might be better to call it a foolton. There it is, lounging in an imaginary space, what else can you call the space it dwells within, drifting in a nowhere land but going a zillion miles a minute as viewed from my mind.</p>
+                    <p>It has got to be laughing, &ldquo;Yeah right, I moved. Ha, ha, ha.&rdquo;</p>
+                    <p>But I&rsquo;m not laughing. Instead I&rsquo;m moving in creeping, gas fuming, morning traffic, struggling to get to work on time so I can work my ass off sweating in sluggish&rsquo; time and space. &nbsp;I hate that photon.&nbsp; That privileged, lazy bastard.</p>
+                    <p>And in the distance I see this mountain range.&nbsp;</p>
+                    <p>I shouldn&rsquo;t say that.&nbsp; I see this brown mound with a touch of green. Somehow I have been brain washed into believing it is a mountain range. <em>Hey, get real, Norm.</em> I&rsquo;m looking. It ain&rsquo;t no mountain range. It is just a brown haze in the distance with a smidgen of green.</p>
+                    <p>No bushes, no trees, no little animals, no little bugs, like real mountain ranges, not even an ant, just a plain brown and green mound in the distance.</p>
+                    <p>Bushes, trees, little animals, little bugs and ants must have photons hitting my eyes, probably a million a second, zipping faster than one thousandth of a blink, coming from that mountain, but I don&rsquo;t see them. Weird.</p>
+                    <p>I&rsquo;m upset.&nbsp; Why can&rsquo;t I see an ant climbing a little blade of grass precariously holding on, as the soft trade winds blow the blade of grass here and there?&nbsp;</p>
+                    <p>I get to work late. My co-worker, Jess, says, as I barge in the door, &ldquo;You look terrible.&rdquo;</p>
+                    <p>I stormed toward the computer.&nbsp; Her little son is on it.&nbsp; I scream for him to get off.&nbsp;</p>
+                    <p>The six-year-old says, &ldquo;You shouldn&rsquo;t talk like that,&rdquo;</p>
+                    <p>I apologize with Jess glaring at me and tell Jupiter, that&rsquo;s the little kid&rsquo;s name, &ldquo;I&nbsp;gotta look for an ant.&rdquo; &nbsp;I lift the kid off the chair, google the Waianae Mountains.&nbsp; Get an aerial shot. Zoom in, lumps, maybe they are bushes, dirt, I think, but no ant, kid screaming.</p>
+                    <p>Jess glares at me again. &nbsp;I glare at the computer.</p>
+                    <p>People are lining up to sell their phonograph records. That&rsquo;s what I&rsquo;ve been doing for the past fifty-eight years.</p>
+                    <p>Work finishes.&nbsp; It is night now.&nbsp; I drive home. The full moon is on the horizon.&nbsp; It looks bigger than normal. I think I can probably leap and touch it if I ever get to the horizon.&nbsp; Shit, it&rsquo;s almost touching the Earth, no wonder it is so big.&nbsp; There are no ants on the moon.&nbsp; Everybody knows that. I don&rsquo;t have a problem with the moon.&nbsp; It&rsquo;s that fuckin&rsquo; mountain. I've been told&nbsp;there is an ant up there.</p>
+                    <p>I pull over on the shoulder of the freeway.&nbsp; Jump out, look back at that mountain.&nbsp; Shit, it is not even there, just a bunch of lights in the distance and a few stars in the zenith.&nbsp; How come I can see the moon but not the mountain?&nbsp; Of course.&nbsp; The Sun is still shining on the moon, but the Earth at night is not facing the Sun.&nbsp; I need the Sun&rsquo;s light to see the mountain. Weird. If photons are flying about, why do I need the Sun&rsquo;s light to see things. Of course, I can only see where they are coming from in space-time, the actual trip to my eyes is in nowhere, no space, no time, no mass.</p>
+                    <p>A cop pulls over. &nbsp;&ldquo;Car trouble?&rdquo;</p>
+                    <p>&nbsp;&ldquo;No, mountain trouble.&rdquo;&nbsp;</p>
+                    <p>&ldquo;Get going, smart ass.&rdquo;</p>
+                    <p>I&rsquo;m back on the freeway heading for the moon on the horizon.</p>
+                    <p>Light moves fast. Science says they&rsquo;ve measured its speed. The image of the moon is really not there.&nbsp; Yeah, it was there a second and a half ago.&nbsp; That&rsquo;s how much time it takes the light bouncing off the Sun from the moon to reach my eyes. So it is not there now.&nbsp; It is in a past, before now. &nbsp;And it is a big. Heck the moon is one third the size of the entire Earth.</p>
+                    <p>Those stars in the zenith of the sky, they are even bigger.&nbsp; They are the size of millions of Earths. &nbsp;But they are not in the sky now.&nbsp;</p>
+                    <p>Instead, those are images of star systems many years ago. I&rsquo;m seeing where light was emitted only. I can&rsquo;t see it coming to me because it is in no space, no time, with no mass. How can I see that? See the pattern here. The bigger the object the farther away it is, and the farther into the past it is.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Example: Galaxies are even bigger than stars.&nbsp; There are billions of star systems within them. The image of galaxies hasn&rsquo;t traveled years to reach me. It has traveled<em> millions</em> of years to reach me. The Universe, the aftermath of the Big Bang, when seen through a telescope from outside it, is incredibly bigger in mass, and to see it in its whole has taken <em>billions</em> of years for its early light to reach me.</p>
+                    <p>Now that mountain is but a millionth of a second away by light. It is not there now. Why so close?&nbsp;Because it is far smaller in mass than even the moon. But it was there a mere instant ago.</p>
+                    <p>Everything I see is in a past because it takes time for everything to reach my eyes as it travels in nowhere. The bigger the thing, the farther away it is to me in both time and space. Why? Are photons that fat? &nbsp;How can a massless object be fat?</p>
+                    <p>My eyes are screwed on all wrong. I&rsquo;m forced to look at everything in the past. What about littler and littler things? Tiny masses. Like subatomic particles?</p>
+                    <p>Wait. I can&rsquo;t see them at all. They are so tiny they don&rsquo;t act like regular objects at all. Scientists say they are only probabilities. Like my futures. I might be here, or there, tomorrow, but it is a merely probability.</p>
+                    <p>&nbsp;Lesser mass worlds are in futures. Maybe the ant is the same thing!&nbsp; It&rsquo;s a lesser mass than me. If light leads toward larger and larger things with distance, yeah, how could I see an ant in the distance? Duh, I should have thought of that.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; So that ant is in my future light? Like subatomic particles.</p>
+                    <p>What is the future? Something I haven&rsquo;t messed up yet. I got to put ME into the equation.</p>
+                    <p>I haven&rsquo;t messed up the ant because I can&rsquo;t see it yet and it hasn&rsquo;t seen me yet. I haven&rsquo;t brought it into my consciousness.</p>
+                    <p>I haven&rsquo;t messed up that subatomic particle tell I get obsessed with meddling with it.</p>
+                    <p>I&rsquo;m like an elephant in a mirror maze at a carnival. I&rsquo;m breaking glass everywhere, and when it shatters, I&rsquo;m seeing through highly distorted, bent mirrors?</p>
+                    <p>But that damn photon. I can&rsquo;t mess with that photon because it has no mass, no time and no space? It&rsquo;s immune to my consciousness.</p>
+                    <p>It&rsquo;s like it is moving from a future of lesser space to a past of larger space, while at the same time. it is doing the opposite, moving from a past to a future in momentary time.</p>
+                    <p>Both times moving opposite cancel each other out, creating no time.</p>
+                    <p>And that photon has no restrictions of space-time. It can encompass all space-time while dwelling in no space-time and no mass.</p>
+                    <p>What? Is my head screwed on right? Could that photon be the whole universe? What would stop it from being the whole universe in no mass, no time, no space.</p>
+                    <p>Well you could say the universe is massive and the photon is not, but you would be wrong.</p>
+                    <p>Being in no space and no time is identical to being in all space and all time because the photon has no breaks, no restrictions, from &ldquo;encompassing.&rdquo; the whole universe. And the odd thing about consciousness (the now) is once you are everything, you are nothing, because if you are everything, you have no sounding board, no not you, to realize the you. So you are massless, yet the entire mass of the universe.</p>
+                    <p>I know that is hard to accept because we look at the world as if it is there, regardless of our consciousness. But when you incorporate the &ldquo;now&rsquo;&mdash;which is our consciousness, a whole new perspective appears.</p>
+                    <p>There is a &ldquo;me&rdquo; and &ldquo;not me.&rdquo;</p>
+                    <p>We separate the outside world from us. We are not aware of <em>being</em> the outside world, we are just <em>sensing</em> its existence.</p>
+                    <p>My &ldquo;now&rdquo; is awareness of my being and knowing my size place in this scheme, while at the same moment being propelled into the future of momentary time.</p>
+                    <p>Yet still looking at a different past because light leads only to the past. Going into the future looking at the past. That&rsquo;s me.</p>
+                    <p>I&rsquo;m a minute dot compared with the whole universe, living in a smidgen of time, (a moment), looking through photons at the outside massive universe through the eye of the photon, the universe itself.</p>
+                    <p>And what am I seeing that makes me think that photon is moving? Scientists measure its starting place and then our &ldquo;now&rdquo; of it reaching us. And then, compare that with what we have been doing in space-time here on a tiny morsel of the universe (awareness of our bodies) during a smidgen of time (a moment). The photon is encompassing everything and we are encompassing a tiny body so small relative to the universe that we and everything around appears to be moving in time and in space in two directions, we moving one way into a future, while witnessing our outside world (our not-us) moving the other way into a past.</p>
+                    <p>Why is time moving?</p>
+                    <p>Could it be we are dizzy and reeling in this situation?</p>
+                    <p>Could it be our consciousness, stuck in a small place, is trying to absorb the big space, the Cosmos itself, by trying to catch pictures of the bigger world inside our smaller world?</p>
+                    <p>Well, it is too big to see all at once. Then we got to see it in pieces. Yeah? Time is a succession of pieces of the universe.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The photon, the whole universe.</p>
+                    <p>We a smidgen of the universe viewing it in snap shots we call space-time.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is a bit confusing.</p>
+                    <p>I think I need to take the photon and put it into a single spot and then find where I am at, relative to the photon.</p>
+                    <p>We live on a globe. The Earth.</p>
+                    <p>We might build a picture by taking subatomic tiny mass particles and putting them closest to the north pole, maybe at the arctic circle, atoms might be at 54 degrees&rsquo; north latitude, Molecules at 45 degrees&rsquo; north latitude, we at 33 degrees&rsquo; latitude, Stars at the tropic of cancer, galaxies at 10 degrees&rsquo; north latitude, the universe at the equator. No, I ain&rsquo;t gonna south of the equator on this picture. I&rsquo;ll stick with a half of a globe.</p>
+                    <p>We could say all these size waves (subatomic, atoms, molecules, us, stars, galaxies, universe) are moving at the same speed (the speed of light) in the same direction around the Cosmic Globe. And each wave is a giant leap in size from the previous size, and there are no gradual sizes in between.&nbsp;&nbsp; We are talking trillions of leaps in sizes from subatomic to atomic to molecular to us to star systems to galaxies to the universe itself.</p>
+                    <p>But in my position, the speed of light is locked in one place at the latitude of 33 degrees&rsquo; north. The difference between the sizes is that we are all transiting different sizes of space. the subatomic particles make a complete circle at the arctic circle quicker than we do at 33 degrees&rsquo; north latitude. So even though we are both moving at the speed of light, from our vantage point, our now, it seems they are moving faster than the speed of light.</p>
+                    <p>That would account for the magic interconnecting of subatomic particles that appear to connect faster than the speed of light. We are seeing a distorted picture of subatomic particles because we are transiting in larger space. And that larger space is our consciousness, our &ldquo;now.&rdquo; And from our point on the Cosmic globe they appear to be ahead of us, in a future so to speak, so we must see them in probabilities.</p>
+                    <p>See how it is when you add consciousness, the &ldquo;now.&rdquo;. It distorts the cosmos you dwell within.</p>
+                    <p>If we see things in lesser space worlds moving faster than the speed of light to us, that would also solve the horizon problem and explain why the universe, when it was in a far lesser space, was able to have light reach all its parts making the universe homogeneous. In other words, the universe, then in lesser space, could make a circle of the universe globe in lesser time. We now in larger space would view that as moving faster than the speed of light because it takes longer in larger space to make one circle of the cosmic globe.</p>
+                    <p>And what about the stars and galaxies and the universe? They appear to be moving slower than us via light because it takes them longer to make a spin around the Cosmic globe. That explains why we think the universe is expanding. It appears that way because we seem to be falling away from larger masses not realizing it is really another dimension as larger objects are forced to travel longer to make a circle around the Cosmic globe.</p>
+                    <p>We, moving around the cosmic globe faster, while the stars and galaxies are expanding away from us into an apparent past.</p>
+                    <p>So it&rsquo;s our consciousness of our size relative to other huge leaps in sizes, that makes us view a world in a distorted manner.</p>
+                    <p>So where is the photon in this picture?</p>
+                    <p>Its fat ass is just lounging with a lollipop in its mouth at the north pole, not needing a single spin to go around the entire Cosmic globe in no space and no time. And all the other masses upon the cosmic globe need to revolve around that sassy photon like it is the king.</p>
+                    <p>Wow. By adding consciousness and being aware of our limited size in the universe, we are really living in fifth dimensional space, three dimensions of space, two of time. When we see things moving faster than the speed of light, like subatomic particles, or slower than the speed of light, like the expanding universe, we are really seeing fifth dimensional space-time. There is still another dimension that science hasn&rsquo;t accounted for.</p>
+                    <p>What is a universe? In this picture it is <em>The time it takes consciousness to make one circle of the cosmic globe </em></p>
+                    <p>What makes a universe to us? It is finite. The term universe demands it to be &ldquo;caged&rdquo; in a multi-universe Cosmos. What makes it finite? Its speed of light. You can&rsquo;t go faster than the speed of light in a universe. If you did, you wouldn&rsquo;t be in that universe. The speed of light is the boundary to a universe. We must be seeing the stars, the galaxies, the atoms, the subatomic particles through distorted mirrors. To us, they are actual universes that mirror into our universe (our circle upon the Cosmic globe) in highly distorted ways.</p>
+                    <p>There are a lot of ways to structure things so we can grab a skyhook and say, &ldquo;Ah this is what is happening to us.&rdquo; This cosmic globe picture is just one such structure. The point is it makes the Theory of Relativity a bit more clear. And the &ldquo;relative&rdquo; in that theory is really the &ldquo;now,&rdquo; our consciousness.</p>
+                    <p>Next morning, I know why I can&rsquo;t see an ant on the mountain. I can&rsquo;t see it until I shrink the amount of &ldquo;time-space&rdquo; between me and the ant.&nbsp; And fortunately the ant is in a size close to mine&nbsp;so I can move toward it and see it.&nbsp; Until I make the move, it is the future of probabilities. Just like subatomic particles.</p>
+                    <p>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I arrive at work.&nbsp; Jess says, &ldquo;Ah you look better today.&rdquo;&nbsp; I hug Jupiter. &rdquo;I&rsquo;m sorry, kid.&rdquo;</p>
+                    <p>Jess smiles. &ldquo;Why you so happy today?&rdquo;</p>
+                    <p>&ldquo;I found out how that smart ass photon cheats.&rdquo;</p>
+                    <p>***</p>
+                    <p>While writing the Saga of the Mighty Valentine Cosmos, I spent months wondering around the streets of Honolulu in all hours of the night. Honolulu is a small town, and if you keep wandering around, everybody notices you walking, thinking you are probably homeless, and my friend Cary got kind of concerned, hearing from everybody, I was wandering the streets night after night.</p>
+                    <p>Cary didn&rsquo;t know I was wandering about the streets thinking about my love in Korea and trying to make sense of what I was writing as this story is for her even though she is not in space-time anymore. That&rsquo;s the thing about stories. They have their own life, they tell you where you got to go, but I just couldn&rsquo;t find my way there with the Saga book. It wasn&rsquo;t writer&rsquo;s block. Hell, I wrote the story over and over close to thirty times using different characters and different worlds. Cary has twenty-two of those books, most with a different title. No, I didn&rsquo;t have a writer&rsquo;s block. What I had was a consciousness block. In order to finish the book, I had to think in an entirely different way than I had been thinking for seventy years. So I got concerned with consciousness and that fat ass photon.</p>
+                    <p>Cary, not knowing that, one night thought I might need a little social interaction and he and his girlfriend invited me to go to a movie.</p>
+                    <p>Driving home. I started rambling that we are living four lives at once and another four lives in multiple other, very different universes. That is what is happening in the story of the Saga of the Mighty Valentine Cosmos, then called the Story of the Beautiful Red Star. His girlfriend thought I had gone nuts, but Cary, bless his heart, actually entertained the thought and the next day he calls me up and says I think it is an elliptical cross. He came over and drew it.</p>
+                    <p>I didn&rsquo;t get it. It had dots making four heart shape spheres that were overlapping. Half of each heart shape sphere was overlapping an adjacent heart shape sphere and in the center were smaller and smaller elliptical crosses within each other. Here is a picture of one the sides of a four sheet diagram that Cary drew.</p>
+                    <p>&nbsp;</p>
+
+                    <?= html::img('images/valentineCosmos.jpg', ['alt' => "some", "class" => "pic"])?>
+                    <p>I kept starring at it. That night I was on the porch staring at the sides of Cary&rsquo;s pictures and starring at the moon, and then wham, it hit me so hard, I started crying. We are living in fifth dimensional space, three of space, two of time. And at last I had a concussion of thought that started resounding in my head for the next two years, leading me to see the world in an entirely different way, and finally I could finish the story of the Saga of the Mighty Valentine Cosmos, a novel I can safely say, is like no other ever written, in structure, in relentless reconnecting, and in a new reality of who we really are, and yet It is simply, a love story of my love, in Korea.</p>
+                    <p>Time-space can actually overlap, actually mirror forth, and happen simultaneously in different locations, locations with physics so bizarre, the same events happen, but utilizing different structural surroundings and different cultures, happen in distorted ways. You see, universes actually connect instantaneously. They are not restricted to the speed of light <em>between</em> universes, only restricted to the speed of light <em>within</em> a universe.</p>
+                    <p>And gradually I realized the story wasn&rsquo;t about a little star, my love; it was the story of our living Cosmos, two beings, who through enormous obstacles, struggle to find a way to touch, feel and be as one. It&rsquo;s the story we all live each day, us, a mirror reflection of the entire Cosmos. Yeah, that comes from another thought experiment that came from another concussion of thought writing the Saga of the Mighty Valentine Cosmos.</p>
+                    <p>Let&rsquo;s not go there now. This is enough concussion of thought for now. Yeah?</p>
+                    <p>But this memoir is centered on my writing, and the night I really, really saw the moon, was a big part of my writing. Maybe the biggest single event in my writing life.</p>
+                    <p>And of course when I&rsquo;m become famous, this &ldquo;big part&rdquo; of my writing will be of great interest to everybody. Of course. Till then, no one will probably have the patience to read this. Well, I hope I am wrong about that.</p>
+                    <p>Next month, February first, 2017, we&rsquo;ll go back to what happened to me when I left my love.</p>
+                    <p>&nbsp;</p>
+                    <p class="p10">&nbsp;</p>
+                    <p class="p10">&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
