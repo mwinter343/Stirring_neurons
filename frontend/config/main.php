@@ -25,28 +25,9 @@ return [
                 ],
             ],
         ],
-        /*
-        'urlManager' => [
-            'class' => 'yii\web\UrlManager',
-            // Hide index.php
-            'showScriptName' => false,
-            // Use pretty URLs
-            'enablePrettyUrl' => true,
-            'rules' => [
-                '<alias:\w+>' => 'site/<alias>'
-            ],
-        ],*/
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
-        ],
-        */
     ],
     'params' => $params,
 ];

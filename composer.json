@@ -17,9 +17,11 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
-        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-swiftmailer": "^2.0",
         "kartik-v/yii2-social": "@dev",
-        "bower-asset/angular": "*"
+        "bower-asset/angular": "*",
+        "yii2mod/yii2-comments": "*",
+        "mdmsoft/yii2-admin": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

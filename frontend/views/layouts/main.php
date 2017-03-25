@@ -37,9 +37,9 @@ AppAsset::register($this);
     $menuItems = [
         ['label' => 'Memoirs', 'url' => ['/site/index']],
         ['label' => 'Saga of the Mighty Valentine Cosmos', 'url' => ['/site/saga-mighty-valentine']],
-        //['label' => 'Dick and the Steam Shovel', 'url' => ['/site/dick-and-the-steam-shovel']],
         ['label' => 'Grandville Rodriquez', 'url' => ['/site/grandville']],
         ['label' => 'Radio Revolution', 'url' => ['/site/radio-revolution']],
+        ['label' => 'Contact Me', 'url' => ['/site/contact']],
 
     ];
     if (Yii::$app->user->isGuest) {

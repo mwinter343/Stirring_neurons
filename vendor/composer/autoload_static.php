@@ -8,6 +8,7 @@ class ComposerStaticInit6ac68061acbb838f167e58422a3b90c1
 {
     public static $files = array (
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '7e702cccdb9dd904f2ccf22e5f37abae' => __DIR__ . '/..' . '/facebook/php-sdk-v4/src/Facebook/polyfills.php',
     );
@@ -23,20 +24,51 @@ class ComposerStaticInit6ac68061acbb838f167e58422a3b90c1
             'yii\\codeception\\' => 16,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
+            'yii2mod\\moderation\\' => 19,
+            'yii2mod\\enum\\' => 13,
+            'yii2mod\\comments\\' => 17,
+            'yii2mod\\behaviors\\' => 18,
+        ),
+        'r' => 
+        array (
+            'rmrevin\\yii\\fontawesome\\' => 24,
+        ),
+        'p' => 
+        array (
+            'paulzi\\sortable\\' => 16,
+            'paulzi\\adjacencyList\\' => 21,
+        ),
+        'm' => 
+        array (
+            'mdm\\admin\\' => 10,
         ),
         'k' => 
         array (
             'kartik\\social\\' => 14,
             'kartik\\base\\' => 12,
         ),
+        'd' => 
+        array (
+            'dee\\angular\\' => 12,
+            'dee\\adminlte\\' => 13,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\Translation\\' => 30,
         ),
         'F' => 
         array (
             'Faker\\' => 6,
             'Facebook\\' => 9,
+        ),
+        'C' => 
+        array (
+            'Carbon\\' => 7,
         ),
     );
 
@@ -73,6 +105,38 @@ class ComposerStaticInit6ac68061acbb838f167e58422a3b90c1
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
+        'yii2mod\\moderation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yii2mod/yii2-moderation',
+        ),
+        'yii2mod\\enum\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yii2mod/yii2-enum',
+        ),
+        'yii2mod\\comments\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yii2mod/yii2-comments',
+        ),
+        'yii2mod\\behaviors\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yii2mod/yii2-behaviors',
+        ),
+        'rmrevin\\yii\\fontawesome\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rmrevin/yii2-fontawesome',
+        ),
+        'paulzi\\sortable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paulzi/yii2-sortable',
+        ),
+        'paulzi\\adjacencyList\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paulzi/yii2-adjacency-list',
+        ),
+        'mdm\\admin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mdmsoft/yii2-admin',
+        ),
         'kartik\\social\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-social',
@@ -81,9 +145,25 @@ class ComposerStaticInit6ac68061acbb838f167e58422a3b90c1
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
         ),
+        'dee\\angular\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/deesoft/yii2-angular',
+        ),
+        'dee\\adminlte\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/deesoft/yii2-adminlte',
+        ),
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Component\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation',
         ),
         'Faker\\' => 
         array (
@@ -93,9 +173,20 @@ class ComposerStaticInit6ac68061acbb838f167e58422a3b90c1
         array (
             0 => __DIR__ . '/..' . '/facebook/php-sdk-v4/src/Facebook',
         ),
+        'Carbon\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
     );
 
     public static $prefixesPsr0 = array (
+        'y' => 
+        array (
+            'yii\\imperavi\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/asofter/yii2-imperavi-redactor',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 

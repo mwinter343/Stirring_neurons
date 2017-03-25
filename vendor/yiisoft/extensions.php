@@ -75,4 +75,104 @@ return array (
       '@kartik/social' => $vendorDir . '/kartik-v/yii2-social',
     ),
   ),
+  'yii2mod/yii2-enum' => 
+  array (
+    'name' => 'yii2mod/yii2-enum',
+    'version' => '1.6.0.0',
+    'alias' => 
+    array (
+      '@yii2mod/enum' => $vendorDir . '/yii2mod/yii2-enum',
+    ),
+  ),
+  'yii2mod/yii2-moderation' => 
+  array (
+    'name' => 'yii2mod/yii2-moderation',
+    'version' => '1.1.0.0',
+    'alias' => 
+    array (
+      '@yii2mod/moderation' => $vendorDir . '/yii2mod/yii2-moderation',
+    ),
+  ),
+  'paulzi/yii2-sortable' => 
+  array (
+    'name' => 'paulzi/yii2-sortable',
+    'version' => '1.0.2.0',
+    'alias' => 
+    array (
+      '@paulzi/sortable' => $vendorDir . '/paulzi/yii2-sortable',
+    ),
+  ),
+  'paulzi/yii2-adjacency-list' => 
+  array (
+    'name' => 'paulzi/yii2-adjacency-list',
+    'version' => '2.0.4.0',
+    'alias' => 
+    array (
+      '@paulzi/adjacencyList' => $vendorDir . '/paulzi/yii2-adjacency-list',
+    ),
+  ),
+  'asofter/yii2-imperavi-redactor' => 
+  array (
+    'name' => 'asofter/yii2-imperavi-redactor',
+    'version' => '0.0.3.0',
+    'alias' => 
+    array (
+      '@yii/imperavi' => $vendorDir . '/asofter/yii2-imperavi-redactor/yii/imperavi',
+    ),
+  ),
+  'yii2mod/yii2-behaviors' => 
+  array (
+    'name' => 'yii2mod/yii2-behaviors',
+    'version' => '1.2.0.0',
+    'alias' => 
+    array (
+      '@yii2mod/behaviors' => $vendorDir . '/yii2mod/yii2-behaviors',
+    ),
+  ),
+  'yii2mod/yii2-comments' => 
+  array (
+    'name' => 'yii2mod/yii2-comments',
+    'version' => '1.9.0.0',
+    'alias' => 
+    array (
+      '@yii2mod/comments' => $vendorDir . '/yii2mod/yii2-comments',
+    ),
+  ),
+  'rmrevin/yii2-fontawesome' => 
+  array (
+    'name' => 'rmrevin/yii2-fontawesome',
+    'version' => '2.17.0.0',
+    'alias' => 
+    array (
+      '@rmrevin/yii/fontawesome' => $vendorDir . '/rmrevin/yii2-fontawesome',
+    ),
+  ),
+  'deesoft/yii2-adminlte' => 
+  array (
+    'name' => 'deesoft/yii2-adminlte',
+    'version' => '1.0.0.0',
+    'alias' => 
+    array (
+      '@dee/adminlte' => $vendorDir . '/deesoft/yii2-adminlte',
+    ),
+  ),
+  'deesoft/yii2-angular' => 
+  array (
+    'name' => 'deesoft/yii2-angular',
+    'version' => '1.3.0.0',
+    'alias' => 
+    array (
+      '@dee/angular' => $vendorDir . '/deesoft/yii2-angular',
+    ),
+    'bootstrap' => 'dee\\angular\\Bootstrap',
+  ),
+  'mdmsoft/yii2-admin' => 
+  array (
+    'name' => 'mdmsoft/yii2-admin',
+    'version' => '3.2.0.0',
+    'alias' => 
+    array (
+      '@mdm/admin' => $vendorDir . '/mdmsoft/yii2-admin',
+    ),
+  ),
 );

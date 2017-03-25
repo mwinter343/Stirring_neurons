@@ -5,8 +5,23 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'authManager' => [
+            'class' => 'yii\rbac\PhpManager', // or use 'yii\rbac\DbManager'
+        ]
     ],
     'modules' => [
+        'admin' => [
+            'class' => 'mdm\admin\Module',
+            'controllerMap' => [
+                'comments' => 'yii2mod\comments\controllers\ManageController',
+            ]
+        ],
+        'mailer' => [
+            'class' => 'yii\swiftmailer\Mailer',
+        ],
+        'comment' => [
+            'class' => 'yii2mod\comments\Module',
+        ],
         'social' => [
             // the module class
             'class' => 'kartik\social\Module',
