@@ -61,16 +61,17 @@ class CommentController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    public function actionCreate($comment)
     {
         $model = new Comments();
+        $now = Date('Y-m-d H:i:s');
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->idComment]);
+            $model->Comment = $this->comment;
+            $model->created = $this->now;
+            return $model;
         } else {
-            return $this->render('create', [
-                'model' => $model,
-            ]);
+            echo "Comment creation failed";
         }
     }
 
@@ -80,12 +81,12 @@ class CommentController extends Controller
      * @param integer $id
      * @return mixed
      */
-    public function actionUpdate($id)
+    public function actionEdit ($id, $newComment)
     {
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->idComment]);
+            $model->comment = $this->newComment;
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -99,9 +100,13 @@ class CommentController extends Controller
      * @param integer $id
      * @return mixed
      */
-    public function actionDelete($id)
+    public function actionArchive($id)
     {
-        $this->findModel($id)->delete();
+
+        //find comment via commentId and set Archived value to current DateTime
+        $dateTime = date('Y-m-d : H:i:s');
+        $comment = $this->findModel($id);
+        $comment->archived = $dateTime;
 
         return $this->redirect(['index']);
     }
