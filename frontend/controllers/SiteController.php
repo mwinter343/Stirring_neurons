@@ -118,6 +118,26 @@ class SiteController extends Controller
         return $this->render('archive/4');
     }
 
+    /**
+     * This function will allow a user to comment on a particular page
+     *
+     * @var string comment
+     * @var int userId
+     *
+     * @return int success will be 1 if true and 0 if false
+     */
+    public function addComment(){
+        //make sure user exist
+        //validate credentials
+        //check input is safe
+        //
+    }
+
+    public function deleteComment(){
+        //check if user is admin
+        //confirm button
+        //replace comment text with *deleted*
+    }
 
     /**
      * Logs in a user.
