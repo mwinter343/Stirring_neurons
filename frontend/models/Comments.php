@@ -3,6 +3,8 @@
 namespace frontend\models;
 
 use Yii;
+use frontend\models\Comments;
+use yii\db\Query;
 
 /**
  * This is the model class for table "Comments".
@@ -49,4 +51,19 @@ class Comments extends \yii\db\ActiveRecord
             'Archived' => 'Archived',
         ];
     }
+
+    public function showComments($limit){
+        /*$comments = (new Query())
+            ->select('*')
+            ->from('Comments')
+            ->all()
+
+            return $comments;*/
+
+        $comments = \frontend\models\Comments::find()
+            ->where('Archived IS NULL')
+            ->asArray()
+            ->limit($limit);
+    }
+
 }
