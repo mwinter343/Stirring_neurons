@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use frontend\models\Comments;
 
 /* @var $this yii\web\View */
 /* @var $model frontend\models\Comments */
@@ -35,5 +36,11 @@ $this->params['breadcrumbs'][] = $this->title;
             'Archived',
         ],
     ]) ?>
+
+    <?php
+        $comment = new Comments();
+
+        echo "" . $comment->showComments(2);
+    ?>
 
 </div>

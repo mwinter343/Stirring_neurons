@@ -101,6 +101,11 @@ class SiteController extends Controller
         return $this->render('books/dickAndTheSteamShovel');
     }
 
+    public function actionTesting()
+    {
+        return $this->render('books/testing');
+    }
+
     public function actionRecollectionOne()
     {
         return $this->render('archive/1');
