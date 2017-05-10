@@ -17,7 +17,7 @@
     use frontend\models\Comments;
 
     $comment = new Comments();
-    echo $comment->createComment("The bees knees", 3);
+    echo $comment->archiveComment(1);
     ?>
 </body>
 

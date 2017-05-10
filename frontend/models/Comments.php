@@ -78,6 +78,11 @@ class Comments extends \yii\db\ActiveRecord
     public function createComment($string, $idUser = 0){
 
         $comment = new Comments();
+
+        if($id = Yii::$app->user->id){
+            $idUser = $id;
+        }
+
         $comment->idUser = $idUser;
         $comment->comment = $string;
         //$comment->Created = Date('Y-m-d H:i:s');
@@ -91,7 +96,7 @@ class Comments extends \yii\db\ActiveRecord
     }
 
     public function archiveComment($idComment, $idUser = null){
-        $comment = new Comments();
+        $comment = Comments::findOne($idComment);
         $comment->Archived = Date('Y-m-d H:i:s');
         $comment->save();
     }
