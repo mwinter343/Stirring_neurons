@@ -1,14 +1,16 @@
 <?php
 
 namespace frontend\models;
-use yii\db\Query;
+
 use Yii;
+use common\models\User;
 
 /**
  * This is the model class for table "Comments".
  *
  * @property integer $idComment
  * @property integer $idUser
+ * @property string $username
  * @property string $comment
  * @property string $Created
  * @property string $Archived
@@ -32,7 +34,7 @@ class Comments extends \yii\db\ActiveRecord
             [['idUser', 'comment'], 'required'],
             [['idUser'], 'integer'],
             [['Created', 'Archived'], 'safe'],
-            [['comment'], 'string', 'max' => 45],
+            [['username', 'comment'], 'string', 'max' => 45],
         ];
     }
 
@@ -44,6 +46,7 @@ class Comments extends \yii\db\ActiveRecord
         return [
             'idComment' => 'Id Comment',
             'idUser' => 'Id User',
+            'username' => 'Username',
             'comment' => 'Comment',
             'Created' => 'Created',
             'Archived' => 'Archived',
@@ -78,14 +81,17 @@ class Comments extends \yii\db\ActiveRecord
     public function createComment($string, $idUser = 0){
 
         $comment = new Comments();
+        $user = new User();
 
-        if($id = Yii::$app->user->id){
-            $idUser = $id;
+        if($sesh = Yii::$app->user){
+            $idUser = $sesh->id;
+            $comment->username = $user->findIdentity($sesh->id)->getUsername();
+            print_r($user);
         }
 
         $comment->idUser = $idUser;
         $comment->comment = $string;
-        //$comment->Created = Date('Y-m-d H:i:s');
+        $comment->Created = Date('Y-m-d H:i:s');
 
         echo $comment->Created;
         if($comment->save()){
@@ -96,8 +102,13 @@ class Comments extends \yii\db\ActiveRecord
     }
 
     public function archiveComment($idComment, $idUser = null){
-        $comment = Comments::findOne($idComment);
-        $comment->Archived = Date('Y-m-d H:i:s');
-        $comment->save();
+        if($comment = Comments::findOne($idComment)) {
+            if(is_null($comment->Archived)){
+                $comment->Archived = Date('Y-m-d H:i:s');
+                $comment->save();
+                return 1;
+            }
+        }
+        return 0;
     }
 }

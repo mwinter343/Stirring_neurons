@@ -47,11 +47,11 @@ AppAsset::register($this);
         //$menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
     } else {
         $menuItems[] = '<li>'
-            //. Html::beginForm(['/site/logout'], 'post')
-            //. Html::submitButton(
-            //    'Logout (' . Yii::$app->user->identity->username . ')',
-            //    ['class' => 'btn btn-link']
-            //)
+            . Html::beginForm(['/site/logout'], 'post')
+            . Html::submitButton(
+                'Logout (' . Yii::$app->user->identity->username . ')',
+                ['class' => 'btn btn-link']
+            )
             . Html::endForm()
             . '</li>';
     }
@@ -71,13 +71,11 @@ AppAsset::register($this);
     </div>
 </div>
 
-<!--
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; Sheriff Norm <?= date('Y') ?></p>
+        <p class="pull-left">&copy; Sheriff Norm <?= 2016 ?></p>
     </div>
 </footer>
-!-->
 
 <?php $this->endBody() ?>
 </body>

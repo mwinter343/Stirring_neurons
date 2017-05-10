@@ -19,7 +19,7 @@ class CommentsSearch extends Comments
     {
         return [
             [['idComment', 'idUser'], 'integer'],
-            [['comment', 'Created', 'Archived'], 'safe'],
+            [['comment', 'username', 'Created', 'Archived'], 'safe'],
         ];
     }
 
@@ -61,6 +61,7 @@ class CommentsSearch extends Comments
         $query->andFilterWhere([
             'idComment' => $this->idComment,
             'idUser' => $this->idUser,
+            'username' => $this->username,
             'Created' => $this->Created,
             'Archived' => $this->Archived,
         ]);
