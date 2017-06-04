@@ -13,7 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="comments-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1><?= Html::encode($this->title)?></h1>
 
     <p>
         <?= Html::a('Update', ['update', 'id' => $model->idComment], ['class' => 'btn btn-primary']) ?>

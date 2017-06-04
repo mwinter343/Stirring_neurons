@@ -83,14 +83,17 @@ class Comments extends \yii\db\ActiveRecord
         $comment = new Comments();
         $user = new User();
 
-        if($sesh = Yii::$app->user){
+        $username = "Anonymous";
+
+        if(!Yii::$app->user->isGuest && $sesh = Yii::$app->user){
             $idUser = $sesh->id;
-            $comment->username = $user->findIdentity($sesh->id)->getUsername();
+            $username = $user->findIdentity($sesh->id)->getUsername();
             print_r($user);
         }
 
         $comment->idUser = $idUser;
         $comment->comment = $string;
+        $comment->username = $username;
         $comment->Created = Date('Y-m-d H:i:s');
 
         echo $comment->Created;
