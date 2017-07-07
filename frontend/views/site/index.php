@@ -15,6 +15,8 @@ use yii\helpers\Url;
 
                     <div class = "story">
 
+                        <h1 style="color:#FF0000">Radio Revolution coming in book, e-book and audio book formats sometime in the month of July!</h1>
+
                         <div class = "container col-md-6 spacer">
                             <?= html::img('images/norman.jpg', ['alt' => "some", "class" => "img-responsive"])?>
                         </div>
@@ -53,12 +55,12 @@ use yii\helpers\Url;
                         <br>
                         <?= html::a("Recollection 3: My Love", Url::to(["site/recollection-three"]));?>
                         <br>
-                        <?= html::a("Recollection 4: Concussion of Thought", Url::to(["site/recollection-four"]));?>
+                        <?= html::a("Recollection 4: John", Url::to(["site/recollection-four"]));?>
                         <br>
                         <br>
 
                         <h4>
-                            <p>RECOLLECTION FIVE: &nbsp;John</p>
+                            <p>RECOLLECTION FOUR: &nbsp;John</p>
                         </h4>
                         <p>
                             <br>

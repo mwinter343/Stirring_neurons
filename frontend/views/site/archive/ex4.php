@@ -12,7 +12,7 @@ use yii\helpers\Html;
 
                 <div class = "story">
                     <h4>
-                        <p>RECOLLECTION FOUR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; John</p>
+                        <p>RECOLLECTION FOUR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CONCUSSION OF THOUGHT</p>
 
                     </h4>
                     <p>&nbsp;</p>
