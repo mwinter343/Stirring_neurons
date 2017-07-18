@@ -15,7 +15,8 @@ use yii\helpers\Url;
 
                     <div class = "story">
 
-                        <h1 style="color:#FF0000">Radio Revolution coming in book, e-book and audio book formats sometime in the month of July!</h1>
+                        <h1 style="color:#FF0000"> <center>Coming Soon: </center> </h1>
+                        <h2 style="color:#FF0000">"The Radio Revolution" in book, e-book and audio book formats sometime in the month of August!</h2>
 
                         <div class = "container col-md-6 spacer">
                             <?= html::img('images/norman.jpg', ['alt' => "some", "class" => "img-responsive"])?>

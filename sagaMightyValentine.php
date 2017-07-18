@@ -54,7 +54,6 @@ use yii\helpers\Html;
                             of Nothingness; a place where you are forced to forever do the exact opposite of what you wish to do.
                         </p>
                     </div>
-
                     <div class = "songlist">
                         <table class = "table table-hover">
                             <tr>
