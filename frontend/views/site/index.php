@@ -16,7 +16,27 @@ use yii\helpers\Url;
                     <div class = "story">
 
                         <h1 style="color:#FF0000"> <center>Coming Soon: </center> </h1>
-                        <h2 style="color:#FF0000">"The Radio Revolution" in book, e-book and audio book formats sometime in the month of August!</h2>
+                        <h2 style="color:#FF0000"><center>"The Radio Revolution" in book, e-book and audio book formats on Friday, October 20th!</center></h2>
+
+
+                        <h6>
+                            <center>
+                            BIG PARTY AT 1000 Dilliingham Blvd 8 to Midnight. Come at any time. We
+                            <br>only can fit a couple hundred people at a time, FREE Drinks. Radio
+                            <br>Free Hawaii DJs will be there, including Pinkie Passion AKA Solana
+                            <br>Rehne and Sheriff Norm will tell the story of "Why" the book, and at
+                            <br>various times do a reading and play music of the station from back in
+                            <br>the day. Books available for sale, oh yeah and maybe an author's
+                            <br>signature.
+
+                                <br>
+                            <br>THEN SATURDAY NIGHT ANOTHER PARTY AT IDEA'S MUSIC AND BOOKS AND BOOK
+                            <br>SIGNING THROUGH THE DAY
+<br><br>
+                            BOOK WILL BE AVAILABLE ON AUDIO, EPUB, KINDLE, AND THROUGH AMAZON AS
+                            WELL STARTING OCTOBER 20TH 2017.
+                            </center>
+                        </h6>
 
                         <div class = "container col-md-6 spacer">
                             <?= html::img('images/norman.jpg', ['alt' => "some", "class" => "img-responsive"])?>
