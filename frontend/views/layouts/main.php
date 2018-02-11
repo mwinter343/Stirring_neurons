@@ -35,7 +35,7 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
-        ['label' => 'Memoirs', 'url' => ['/site/index']],
+        ['label' => 'Home', 'url' => ['/site/index']],
         ['label' => 'Saga of the Mighty Valentine Cosmos', 'url' => ['/site/saga-mighty-valentine']],
         //['label' => 'Dick and the Steam Shovel', 'url' => ['/site/dick-and-the-steam-shovel']],
         ['label' => 'Grandville Rodriquez', 'url' => ['/site/grandville']],

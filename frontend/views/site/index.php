@@ -14,35 +14,30 @@ use yii\helpers\Url;
                 To 
 
                     <div class = "story">
-
-                        <h1 style="color:#FF0000"> <center>Coming Soon: </center> </h1>
-                        <h2 style="color:#FF0000"><center>"The Radio Revolution" in book, e-book and audio book formats on Friday, October 20th!</center></h2>
-
-
-                        <h6>
-                            <center>
-                            BIG PARTY AT 1000 Dilliingham Blvd 8 to Midnight. Come at any time. We
-                            <br>only can fit a couple hundred people at a time, FREE Drinks. Radio
-                            <br>Free Hawaii DJs will be there, including Pinkie Passion AKA Solana
-                            <br>Rehne and Sheriff Norm will tell the story of "Why" the book, and at
-                            <br>various times do a reading and play music of the station from back in
-                            <br>the day. Books available for sale, oh yeah and maybe an author's
-                            <br>signature.
-
-                                <br>
-                            <br>THEN SATURDAY NIGHT ANOTHER PARTY AT IDEA'S MUSIC AND BOOKS AND BOOK
-                            <br>SIGNING THROUGH THE DAY
-<br><br>
-                            BOOK WILL BE AVAILABLE ON AUDIO, EPUB, KINDLE, AND THROUGH AMAZON AS
-                            WELL STARTING OCTOBER 20TH 2017.
-                            </center>
-                        </h6>
-
+                        <p><center>____________________________________________________________________<br><br><br></center></p>
                         <div class = "container col-md-6 spacer">
                             <?= html::img('images/norman.jpg', ['alt' => "some", "class" => "img-responsive"])?>
                         </div>
+
+                        <p><h3><center>About:</center></h3></p>
+                        <p>My first book was a three-thousand- word masterpiece, a Dick and Jane children story called Dick and the Steam Shovel written at age seven and expanded upon trying to get extra credit so I could pass English as a Senior in high school. Didn&rsquo;t work, never graduated, but it did get me out of high school. My teacher said it was ungradeable or was it &ldquo;I was incorrigible.&rdquo; It was so long ago I&rsquo;m not sure what she really said, but she seemed obsessed with the &ldquo;moral&rdquo; of my children story. Apparently Children Stories need a moral that only adults can relate to.</p>
+
+                        <p> You can hear Dick and the Steam Shovel with a few beers, on my website Stirringneurons.com. Yeah. I voice it there, so you can hear my rage, absolutely free, hell by now, it must be public domain, anyway.<br><br></p>
+
+                        <audio controls>
+                            <source src="audio/dickAndSteamShovel.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <p><br>The moral problem in the book is, I think, what my teacher called the bad guy (Dick the thief) in the children book, is really the good guy, and the one my teacher thought was the good guy (Detective Dick), is really the bad guy.</p>
+
+                        <p> My next book was the Autobiograffiti of Grandville Rodriquez, about a pissed off Mexican scientist who found a way to utterly destroy the world of the Gringo. Sometimes I call it the Outlaw Who Saved the World. A respected agent from a big agency told me &ldquo;it is too outlandish for the modern-day reader.&rdquo; That&rsquo;s the reason it hasn&rsquo;t reached the masses yet. But I plan to self-publish it in October 2018. Then I decided to write the story of the Cosmos, with all its universes and all its stars and all its galaxies and all its quasars and all its subatomic particles etc. A rather comprehensive endeavor called the rather long, and deservedly a proper name for such an immense endeavor, the Saga of the Mighty Valentine Cosmos and the Tower of Time. That book took me 38 years to write. I started it October 20 th 1979, exactly thirty-eight years before the night of my first book launch. I wanted to include everything in that book, that&rsquo;s why it took so long. But I didn&rsquo;t even bother showing that book to an agent. If agents thought my Grandville story was too outrageous for the modern-day reader, what would they think of the detail history of our entire Cosmos? But I am publishing it through Page Publishing in New York, in June of 2018.</p>
+
+                        <p> Then Trump got elected President of the United States of America. Somehow, I missed putting him in the history of the Cosmos. I just didn&rsquo;t expect him to be there, so I wrote this book to fill the omission and hopefully turn America upside down and turn it into a real democracy. Welcome to The Radio Revolution, My first published, granted, self-published, book. Talk about rage, this is it to the max.</p>
+
+                        <!--
+
                         <h4>
-                        <p class="p1"><span class="s1"><br /> A CHILDREN&rsquo;S STORY <span class="Apple-converted-space">&nbsp; </span>(I Guess it&rsquo;s my memoir)</span></p>
+                        <p class="p1"><span class="s1">  A CHILDREN&rsquo;S STORY <span class="Apple-converted-space">&nbsp; </span>(I Guess it&rsquo;s my memoir)</span></p>
                         </h4>
                         <p>This is my writing.&nbsp; I write books.&nbsp; I write short stories. I write songs. Hopefully I&rsquo;ll get off my duff soon and publish some of them.</p>
                         <p>Writers are storytellers so don&rsquo;t ask what part of this is true and what part is fiction. I&rsquo;m just telling you a story.</p>
@@ -63,10 +58,7 @@ use yii\helpers\Url;
                         <h3>
                             Dick and the Steam Shovel
                         </h3>
-                        <audio controls>
-                            <source src="audio/dickAndSteamShovel.mp3" type="audio/mp3">
-                            Your browser does not support the audio element.
-                        </audio>
+
                         <br>
                         <h4> Previous Recollections: </h4>
                         <br>
@@ -126,6 +118,8 @@ use yii\helpers\Url;
                             But like my brother said. &ldquo;We translate our emotional drives into rationalizations that we use as skyhooks to keep us going&rdquo;. So March 1st, I&rsquo;ll continue with the memoirs that affect my writings. I don&rsquo;t know why it is, but writing this kind of stuff, I feel I have love for everybody here on this planet. Strange. But hell, it is the way I feel. Of course when people do something insanely stupid to my consciousness, I forget the love I felt for them. Maybe it is an earth situation, Consciousness here distorts things so much.<br />
                             Well by March 1, I should know if I have an agent for the Saga of the Mighty Valentine Cosmos. Wish me luck. <br />
                         </p>
+
+                        -->
                     </div>
                 </div>
             </div>
